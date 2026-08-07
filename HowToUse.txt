@@ -1,0 +1,5 @@
+Add a video named "video.mp4" in the same directory as the py script
+Set the width and height equal to your cmd for the best experience
+Run the script and wait for the "conversion" folder to be filled
+Then open the folder in cmd and run the following command:
+for file in $(ls -v *.txt); do clear; cat "$file"; sleep 0.04; done 
